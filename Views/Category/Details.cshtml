@@ -1,0 +1,36 @@
+﻿@model fruit.Models.Category
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .page-container {
+            position: relative;
+            height: 100vh;
+            padding-top: 150px;
+            padding-right: 1200px;
+            padding-left: 50px;
+        }
+
+
+    </style>
+</head>
+ 
+ 
+ <div class="page-container">
+<h2>Category Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+</dl>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+ </div>

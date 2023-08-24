@@ -1,0 +1,54 @@
+﻿@model IEnumerable<fruit.Models.Category>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .page-container {
+            position: relative;
+            height: 100vh;
+            padding-top: 150px;
+            padding-left: 30px;
+            padding-right: 300px;
+        }
+
+
+    </style>
+</head>
+<body>
+ <div class="page-container">
+    <h2>Categories</h2>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => category.Name)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@category.Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@category.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

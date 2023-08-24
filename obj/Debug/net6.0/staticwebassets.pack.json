@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\fruit.bundle.scp.css",
+      "PackagePath": "staticwebassets\\fruit.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\base\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\base\\_variables.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\base\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\common\\_common.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_common.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\common\\_footer.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\common\\_header.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_header.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\common\\_hover.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\common\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\main.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\main.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\pages\\_404.css",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_404.css"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\pages\\_404.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_404.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\pages\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_about.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\pages\\_contact.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\pages\\_shop.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\prepros-6.config",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\prepros-6.config"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_about.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_about.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_cart-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_cart-banner.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_hero.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_hero.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_list.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_list.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_news.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_news.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_shop-banner.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_shop-banner.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\css\\scss\\sections\\_testimonials.scss",
+      "PackagePath": "staticwebassets\\assets\\css\\scss\\sections\\_testimonials.scss"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\a.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\a.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\abt.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\abt.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\avaters\\avatar1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar1.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\avaters\\avatar2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar2.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\avaters\\avatar3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\avaters\\avatar3.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\breadcrumb-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb-bg.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\company-logos\\1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\1.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\company-logos\\2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\2.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\company-logos\\3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\3.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\company-logos\\4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\4.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\company-logos\\5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\company-logos\\5.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\feature-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\feature-bg.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\hero-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg-2.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\hero-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg-3.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\homepage-bg-pattern.png",
+      "PackagePath": "staticwebassets\\assets\\img\\homepage-bg-pattern.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-1.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-2.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-3.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-4.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-5.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\latest-news\\news-bg-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\latest-news\\news-bg-6.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-1.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-2.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-3.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-4.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-5.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\products\\product-img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\product-img-6.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\form-validate.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validate.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\jquery.isotope-3.0.6.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.isotope-3.0.6.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\sticker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sticker.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.js"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot_"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot_"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.eot_",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot_"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Bussines\\CourseBackEnd\\FruitStore-master\\fruit\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.fruit.props",
+      "PackagePath": "build\\fruit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.fruit.props",
+      "PackagePath": "buildMultiTargeting\\fruit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.fruit.props",
+      "PackagePath": "buildTransitive\\fruit.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.fruit.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

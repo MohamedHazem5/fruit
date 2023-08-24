@@ -1,0 +1,30 @@
+﻿@model fruit.Models.Category
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .page-container {
+            position: relative;
+            height: 100vh;
+            padding-top: 150px;
+            padding-right: 1200px;
+            padding-left: 50px;
+        }
+
+
+    </style>
+</head>
+ <div class="page-container">
+<h2>Create Category</h2>
+
+<form asp-action="Create">
+    <input hidden asp-for="Id">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+ </div>

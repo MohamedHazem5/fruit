@@ -1,0 +1,57 @@
+﻿@model Product
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .page-container {
+            position: relative;
+            height: 100vh;
+            padding-top: 150px;
+            padding-right: 1200px;
+            padding-left: 50px;
+        }
+
+
+    </style>
+</head>
+ <div class="page-container">
+<h2>Create Product</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" class="form-control" asp-for="Name" />
+    </div>
+        <div class="form-group">
+        <label for="price">price:</label>
+        <input type="text" class="form-control" asp-for="price" />
+    </div>
+        <div class="form-group">
+        <label for="AccountId">User Number:</label>
+        <input type="text" class="form-control" asp-for="AccountId" />
+    </div>
+        <div class="form-group">
+        <label for="Description">Description:</label>
+        <input type="text" class="form-control" asp-for="Description" />
+    </div>
+        <div class="form-group">
+        <label for="stocklevel">StockLevel:</label>
+        <input type="text" class="form-control" asp-for="stocklevel" />
+    </div>
+    <div class="form-group">
+        <label for="CategoryId">Category:</label>
+        <select class="form-control" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+            <option value="">Select a category</option>
+        </select>
+    </div>
+        <div class="form-group">
+        <label for="InventoryId">Inventory:</label>
+        <select class="form-control" asp-for="InventoryId" asp-items="@(new SelectList(ViewBag.Inventories, "Id", "Name"))">
+            <option value="">Select a category</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</form>
+ </div>
