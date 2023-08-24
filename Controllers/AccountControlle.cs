@@ -17,7 +17,14 @@ namespace fruit.Controllers
         {
             _context = context;
         }
-        [HttpGet("create")]
+
+        [HttpGet("Create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost("Create")]
         public IActionResult Create(Account account)
         {
            
@@ -28,22 +35,28 @@ namespace fruit.Controllers
                _context.SaveChanges();
 
             }
-            return View(account);
+            return RedirectToAction("Index", "Home");
 
         }
 
-      [HttpGet("logIn")]
-        public IActionResult Login ( string email, string password)
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+      [HttpPost("Login")]
+        public IActionResult Login (Account account)
         {
 
-            var Account = _context.Accounts.FirstOrDefault(c => c.email== email && c.password == password);
+            var Account = _context.Accounts.FirstOrDefault(c => c.email== account.email && c.password == account.password);
             if (Account == null)
             {
-                return NotFound();
+                return View(account);
             }
 
 
-            return View(Account);   
+            return RedirectToAction("Index", "Home");
 
         }
 
