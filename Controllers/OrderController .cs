@@ -14,50 +14,37 @@ namespace fruit.Controllers
         {
             _context = context;
         }
-        public IActionResult Index(int? id)
+        public IActionResult Index(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             var product = _context.Products.FirstOrDefault(c => c.ProductId == id);
             if (product == null)
             {
                 return NotFound();
             }
-             ViewBag.Categories = _context.Categories.ToList();
-             ViewBag.Inventories = _context.Inventories.ToList();
-            return View(product);
+            ViewBag.Categories = _context.Categories.ToList();
+            ViewBag.Inventories = _context.Inventories.ToList();
+            return View(new Order { ProductId = product.ProductId, Product = product });
 
         }
-        
-[HttpPost("Create")]
-public IActionResult Create(Order order)
-{
-    if (ModelState.IsValid)
-    {
 
-        var userName = User.Identity.Name;
-
-
-        var user = _context.Accounts.FirstOrDefault(u => u.Name == userName);
-
-        if (user != null)
+        [HttpPost("Create")]
+        public IActionResult Create(Order order)
         {
-            order.Account = user;
-            _context.Orders.Add(order);
-            _context.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                var user = _context.Accounts.FirstOrDefault(u => u.AccountId == order.AccountId);
 
-            return RedirectToAction(nameof(Index));
+                if (user != null)
+                {
+                    order.Account = user;
+                    _context.Orders.Add(order);
+                    _context.SaveChanges();
+
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            return View(order);
         }
-        else
-        {
-            return RedirectToAction("Error", "Home");
-        }
-    }
-    return View(order);
-}
 
 
 

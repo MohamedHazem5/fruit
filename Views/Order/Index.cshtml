@@ -1,9 +1,9 @@
-﻿@model fruit.Models.Product
+﻿@model fruit.Models.Order
  
 
+								<form asp-controller="Order" asp-action="Create" method="post">
 
 
-	
 	<!-- search area -->
 	<div class="search-area">
 		<div class="container">
@@ -55,51 +55,20 @@
 								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 								<div class="card-body">
 								<div class="billing-address-form">
-								<form asp-action="Create">
-											<p><input type="text" name="CustomerName" placeholder="Customer Name" value="@User.Identity.Name" readonly></p>
-											<p><input type="email" name="Email" placeholder="Email" value="@User.Identity.Name" readonly></p>
-											<p><input type="text" name="Address" placeholder="Address"></p>
-											<p><input type="tel" name="Phone" placeholder="Phone"></p>
-											<p><textarea name="bill" id="bill" cols="30" rows="10" placeholder="Say Something"></textarea></p>
+									<input type="hidden" value="@Model.ProductId" asp-for="ProductId" >
+											<p><input class="form-control p-4" type="text" asp-for="CustomerName" placeholder="Customer Name"></p>
+											<p><input class="form-control p-4" type="text" asp-for="AccountId" placeholder="Customer Number"></p>
+											<p><input class="form-control p-4" type="email" asp-for="Status" placeholder="Email" ></p>
+											<p><input class="form-control p-4" type="text" asp-for="ShippingAddress" placeholder="Address"></p>
+											<p><input class="form-control p-4" type="tel" asp-for="Phone" placeholder="Phone"></p>
+											<p><textarea class="form-control p-4" asp-for="Note" id="bill" cols="30" rows="10" placeholder="Say Something"></textarea></p>
 											
-								</form>
 								</div>
 								</div>
 								</div>
 
 							</div>
-							<div class="card single-accordion">
-								<div class="card-header" id="headingTwo">
-									<h5 class="mb-0">
-										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-											Shipping Address
-										</button>
-									</h5>
-								</div>
-								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-									<div class="card-body">
-										<div class="shipping-address-form">
-											<p>Your shipping address form is here.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card single-accordion">
-								<div class="card-header" id="headingThree">
-									<h5 class="mb-0">
-										<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-											Card Details
-										</button>
-									</h5>
-								</div>
-								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-									<div class="card-body">
-										<div class="card-details">
-											<p>Your card details goes here.</p>
-										</div>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 
 					</div>
@@ -111,28 +80,28 @@
 							<thead>
 								<tr>
 									<th>Your order Details</th>
-									<th>@Model.price</th>
+									<th>@Model.Product.price</th>
 								</tr>
 							</thead>
 							<tbody class="order-details-body">
 
 								<tr>
-									<td>@Model.Name</td>
-									<td>$@Model.price</td>
+									<td>@Model.Product.Name</td>
+									<td>$@Model.Product.price</td>
 								</tr>
 								<tr>
 									<td>Category</td>
-									<td>@Model.Category.Name</td>
+									<td>@Model.Product.Category.Name</td>
 								</tr>
 								<tr>
 									<td>Stock Level</td>
-									<td>@Model.stocklevel</td>
+									<td>@Model.Product.stocklevel</td>
 								</tr>
 							</tbody>
 							<tbody class="checkout-details">
 								<tr>
 									<td>Inventory</td>
-									<td>@Model.inventory.Name</td>
+									<td>@Model.Product.inventory.Name</td>
 								</tr>
 								<tr>
 									<td>Shipping</td>
@@ -140,7 +109,8 @@
 								</tr>
 							</tbody>
 						</table>
-						<a asp-action="Create" class="boxed-btn">Place Order</a>
+						<input  type="submit" placeholder="Place Order">
+						@* <a asp-controller="Order" asp-action="Create" class="boxed-btn">Place Order</a> *@
 					</div>
 				</div>
 			</div>
@@ -176,3 +146,4 @@
 	<!-- end logo carousel -->
 	
 	
+								</form>
